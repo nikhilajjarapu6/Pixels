@@ -212,8 +212,7 @@ body {
     
 }
 .formcontrol{
-    width:600px;
-    
+    width:600px;  
 }
 .section h1{
     color: greenyellow;
@@ -260,7 +259,7 @@ body {
    background-color: rgb(28, 138, 105) ;
 }
 
-
+/* shilpa_battula@tecnics.com */
 
 /* @keyframes changeBackground {
     0% { background-image: url('pexels-stefan-stefancik-919606.jpg'); background-position: 0% 50%; }
@@ -276,5 +275,52 @@ body {
     100% { background-image: url('pexels-stefan-stefancik-919606.jpg'); } 
 } */
 
+@media screen and (max-width:410px) {
+    .navbar {
+        width: 10%;
+       
+    }
+    .navbar ul {
+        display: inline-flex;
+        gap: 0px;  
+    }
+    .navbar ul li {
+       
+        font-size: 12px;
+        
+       
+    }
+    .aside-bar {
+        width: 0px;
+        height: 100%;
+        display: flex;
+       
+    }
+    .aside-bar:hover {
+        width: 200px;
+        height: 100%;
+        display: flex;  
+    }
+    .section-bar {
+        width: 320px;
+    }
+    .formcontrol{
+        width:300px;  
+    }
+    .footer div {
+        display: flex;
+        gap: 15px; 
+        margin-top: 10px;  
+    } 
+    .footer div a:nth-child(n+5) {
+        display: none; 
+    }
+    .footer div a {
+       font-size: small; 
+    } 
+    .fa-magnifying-glass{
+        height:30px
+    }
+}
 
 

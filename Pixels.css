@@ -258,6 +258,13 @@ body {
 .footer div a:hover{
    background-color: rgb(28, 138, 105) ;
 }
+.fa-bars{
+    position: absolute;
+    top :20px;
+    left:110px;
+    font-size: 30px;
+    visibility: hidden;
+}
 
 /* shilpa_battula@tecnics.com */
 
@@ -275,7 +282,7 @@ body {
     100% { background-image: url('pexels-stefan-stefancik-919606.jpg'); } 
 } */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:410px) {
     .navbar {
         width: 10%;
        
@@ -283,7 +290,7 @@ body {
     .navbar ul {
         display: inline-flex;
         gap: 0px; 
-        margin-left :50px; 
+        margin-left :20px; 
     }
     .navbar ul li {
         font-size: 12px; 
@@ -296,13 +303,10 @@ body {
         overflow: hidden;
        
     }
-    .aside-bar::-webkit-scrollbar{
-    display: none;
-}
     .aside-bar:hover {
         width: 200px;
         height: 100%;
-        display: flex;  
+        display: none;  
     }
     .section-bar {
         width: 320px;
@@ -324,7 +328,36 @@ body {
     .fa-magnifying-glass{
         height:30px
     }
-}
+    .fa-bars{
+        position: absolute;
+        top :15px;
+        left:10px;
+        font-size: 25px;
+        visibility: visible;
+        z-index: 2;
+    }
+    .fa-bars:hover .aside-bar{
+        width: 200px;
+        height: 100%;
+    }
 
+    .fa-bars {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 20px;
+        visibility: visible;
+         /* Ensure it's above the aside bar */
+    }
+    .fa-bars:hover .aside-bar{
+        width: 200px;
+        height: 100%;
+        
+    }
+    
+
+    
+
+}
 
 

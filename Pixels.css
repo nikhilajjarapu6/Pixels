@@ -282,18 +282,18 @@ body {
     }
     .navbar ul {
         display: inline-flex;
-        gap: 0px;  
+        gap: 0px; 
+        margin-left :20px; 
     }
     .navbar ul li {
-       
-        font-size: 12px;
-        
-       
+        font-size: 12px; 
     }
+    
     .aside-bar {
         width: 0px;
         height: 100%;
         display: flex;
+        overflow: hidden;
        
     }
     .aside-bar:hover {
@@ -322,5 +322,6 @@ body {
         height:30px
     }
 }
+
 
 

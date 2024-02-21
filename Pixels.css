@@ -275,7 +275,7 @@ body {
     100% { background-image: url('pexels-stefan-stefancik-919606.jpg'); } 
 } */
 
-@media screen and (max-width:410px) {
+@media screen and (max-width:700px) {
     .navbar {
         width: 10%;
        
@@ -283,7 +283,7 @@ body {
     .navbar ul {
         display: inline-flex;
         gap: 0px; 
-        margin-left :20px; 
+        margin-left :50px; 
     }
     .navbar ul li {
         font-size: 12px; 
@@ -296,6 +296,9 @@ body {
         overflow: hidden;
        
     }
+    .aside-bar::-webkit-scrollbar{
+    display: none;
+}
     .aside-bar:hover {
         width: 200px;
         height: 100%;

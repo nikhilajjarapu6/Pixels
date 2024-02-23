@@ -308,12 +308,12 @@ body {
         left: 0px;
         transition: width 0.3s ease;   
     }
-    /* .aside-bar:hover {
+    .aside-bar:hover {
         width: 200px;
         height: 100%;
-        display: none;
         
-    } */
+        
+    }
     .section-bar {
         width: 320px;
     }
@@ -342,13 +342,10 @@ body {
         font-size: 20px;
         
     }
-    .fa-bars:hover .aside-bar{
-        font-size: 50px;
-    }
+    
 
     
 
 }
-
 
 

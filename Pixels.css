@@ -314,6 +314,9 @@ body {
         
         
     }
+    .aside-bar::-webkit-scrollbar{
+        display: none;
+    }
     .section-bar {
         width: 320px;
     }

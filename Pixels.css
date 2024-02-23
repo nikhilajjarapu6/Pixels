@@ -90,6 +90,9 @@ body {
     display: none;
 }
 
+.aside-bar.expanded {
+    width: 250px;
+}
 
 .aside-bar:hover .aside-items{
     margin-left: -30px;
@@ -263,8 +266,10 @@ body {
     top :20px;
     left:110px;
     font-size: 30px;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
+
+
 
 /* shilpa_battula@tecnics.com */
 
@@ -284,8 +289,7 @@ body {
 
 @media screen and (max-width:410px) {
     .navbar {
-        width: 10%;
-       
+        width: 10%; 
     }
     .navbar ul {
         display: inline-flex;
@@ -301,13 +305,15 @@ body {
         height: 100%;
         display: flex;
         overflow: hidden;
-       
+        left: 0px;
+        transition: width 0.3s ease;   
     }
-    .aside-bar:hover {
+    /* .aside-bar:hover {
         width: 200px;
         height: 100%;
-        display: none;  
-    }
+        display: none;
+        
+    } */
     .section-bar {
         width: 320px;
     }
@@ -328,36 +334,21 @@ body {
     .fa-magnifying-glass{
         height:30px
     }
-    .fa-bars{
-        position: absolute;
-        top :15px;
-        left:10px;
-        font-size: 25px;
-        visibility: visible;
-        z-index: 2;
-    }
-    .fa-bars:hover .aside-bar{
-        width: 200px;
-        height: 100%;
-    }
 
     .fa-bars {
         position: absolute;
         top: 15px;
         left: 10px;
         font-size: 20px;
-        visibility: visible;
-         /* Ensure it's above the aside bar */
-    }
-    .fa-bars:hover .aside-bar{
-        width: 200px;
-        height: 100%;
         
     }
-    
+    .fa-bars:hover .aside-bar{
+        font-size: 50px;
+    }
 
     
 
 }
+
 
 
